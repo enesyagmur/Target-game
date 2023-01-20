@@ -1,0 +1,34 @@
+ .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    color: white;
+ }
+
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 400px;
+}
+.top > div{
+   
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+ 
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.bottom > div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px;
+  
+}
