@@ -14,8 +14,8 @@
 .top > div{
    
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: black;
     border-radius: 50px;
  
@@ -26,9 +26,28 @@
 }
 .bottom > div {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: black;
     border-radius: 50px;
   
+}
+
+img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+header{
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    font-size: 100px;
+}
+i{
+    font-size: 40px;
+    margin: 5px;
 }
