@@ -1,53 +1,58 @@
- .main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    color: white;
- }
+body {
+  padding-top: 100px;
+  background-color: gray;
+}
 
+header {
+  width: 100%;
+  height: 350px;
+  border: 2px solid black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  color: white;
+}
 
 .top {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 400px;
 }
-.top > div{
-   
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    border-radius: 50px;
- 
+.top > div {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50px;
 }
 .bottom {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .bottom > div {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    border-radius: 50px;
-  
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50px;
 }
 
-img{
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-
-header{
-    text-align: center;
-    padding-top: 20px;
+header {
+  text-align: center;
+  padding-top: 20px;
 }
-h1{
-    font-size: 100px;
+h1 {
+  font-size: 100px;
 }
-i{
-    font-size: 40px;
-    margin: 5px;
+i {
+  font-size: 40px;
+  margin: 5px;
 }
